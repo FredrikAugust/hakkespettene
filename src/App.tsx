@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Members from "./Members";
+
+import styled from "styled-components";
+import Merits from "./Merits";
+
+const TeamName = styled.h1`
+  font-size: 4em;
+`;
+
+const TeamDescription = styled.p`
+  font-size: 2em;
+`;
+
+const MainContainer = styled.div`
+  font-family: "SF Mono";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4em 1em;
+`;
+
+const App: React.FC = props => (
+  <MainContainer>
+    <TeamName>Hakkespettene</TeamName>
+    <TeamDescription>
+      A CTF and Hackathon team based in Trondheim, Norway.
+    </TeamDescription>
+    <Members />
+    <Merits />
+  </MainContainer>
+);
 
 export default App;
