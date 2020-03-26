@@ -43,6 +43,11 @@ const MERITS: Array<Merit> = [
     title: "Kodekampen BEKK Qualifier Trondheim",
     placement: 1,
     year: 2020
+  },
+  {
+    title: "Bouvet Battle Royale Trondheim",
+    placement: 1,
+    year: 2020
   }
 ];
 
