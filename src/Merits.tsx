@@ -48,6 +48,11 @@ const MERITS: Array<Merit> = [
     title: "Bouvet Battle Royale Trondheim",
     placement: 1,
     year: 2020
+  },
+  {
+    title: "Norwegian Cyber Security Challenge (Qualifiers, Senior -- Fredrik)",
+    placement: 6,
+    year: 2020
   }
 ];
 
