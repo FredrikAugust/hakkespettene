@@ -53,7 +53,12 @@ const MERITS: Array<Merit> = [
     title: "Norwegian Cyber Security Challenge (Qualifiers, Senior -- Fredrik)",
     placement: 6,
     year: 2020
-  }
+  },
+  {
+    title: "Deloitte CTF National Finale",
+    placement: 1,
+    year: 2020
+  },
 ];
 
 const Ranking = styled.span`
